@@ -57,7 +57,7 @@ export class Component {
 
     render() {
         // API Hook
-        throw new Error('getElement API hook must be implemented');
+        throw new Error('render API hook must be implemented');
     }
 
     _asElement() {
